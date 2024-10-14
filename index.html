@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilherme Carvalho - Portifólio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.png">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="#about">Sobre</a>
+      <a href="#projects">Projetos</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contact">Contato</a>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section id="home">
+        <div>
+          <img class="myPicture" src="myPicture.webp" />
+
+          <p>
+            Olá, me chamo Guilherme Carvalho,
+            sou um desenvolvedor backend apaixonado por criar soluções
+            inovadoras e eficazes. Estou sempre procurando melhorar minhas
+            habilidades e aprender novas tecnologias.
+          </p>
+        </div>
+      </section>
+
+      <section id="about">
+        <h1>Sobre Mim</h1>
+        <p>Sou graduando em Sistemas de informação na Uninassau Recife - PE.</p>
+        <p>
+          Iniciei minha carreira na área de TI como Quality Assurance.
+          Após um pouco mais ed 1 ano, tive a oportunidade de seguir minha
+          trajetória como desenvolvedor. Atualmente, atuo como tech lead de
+          backend.
+        </p>
+        <p>Tenho experiência em tecnologias como:</p>
+        <div>
+          <ul>
+            <li>Nodejs</li>
+            <li>Typescript</li>
+            <li>PHP</li>
+            <li>Go</li>
+            <li>Nestjs</li>
+          </ul>
+          <ul>
+            <li>CodeIgniter 4</li>
+            <li>Docker</li>
+            <li>MySQL</li>
+            <li>SQL</li>
+            <li>Redis</li>
+          </ul>
+          <ul>
+            <li>Kafka</li>
+            <li>DynamoDB</li>
+            <li>Secret manager</li>
+            <li>Entre outros serviços da AWS</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1>Projetos</h1>
+        <div class="project-grid">
+          <div class="project">
+            <h2>Listagem de produtos com GO e Kafka</h2>
+            <p>
+              Este é um aplicativo Go simples que demonstra o uso do Kafka para comunicação assíncrona entre
+              microsserviços. O aplicativo permite criar e listar produtos usando pontos de extremidade HTTP e consome
+              mensagens de um tópico Kafka para criar produtos de forma assíncrona.
+            </p>
+
+            <a href="https://github.com/guilhermecrvl/products-golang-kafka-api" target="_blank">
+              Acessar repositório
+            </a>
+          </div>
+          <div class="project">
+            <h2>Em breve</h2>
+            <img src="workingAtProject.webp" />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1>Habilidades</h1>
+        <table>
+          <tr>
+            <th>Habilidade</th>
+            <th>Nível de Proficiência</th>
+          </tr>
+          <tr>
+            <td>Nodejs</td>
+            <td>Avançado</td>
+          </tr>
+          <tr>
+            <td>Typescript</td>
+            <td>Avançado</td>
+          </tr>
+          <tr>
+            <td>PHP</td>
+            <td>Avançado</td>
+          </tr>
+          <tr>
+            <td>Go</td>
+            <td>Iniciante</td>
+          </tr>
+          <tr>
+            <td>Nestjs</td>
+            <td>Avançado</td>
+          </tr>
+          <tr>
+            <td>Kafka</td>
+            <td>Intermediário</td>
+          </tr>
+          <tr>
+            <td>DynamoDB</td>
+            <td>Avançado</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h1>Contato</h1>
+        <div>
+          <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Guilherme Carvalho - Portifólio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
